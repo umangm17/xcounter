@@ -12,10 +12,10 @@ export default function Counter(props) {
 
   return (
     <div>
-      Count:{count}
+      Count: {count}
       <div>
-        <button onClick={Increament}>Increament</button>
-        <button onClick={Decreament}>Decreament</button>
+        <button onClick={Increament}>Increment</button>
+        <button onClick={Decreament}>Decrement</button>
       </div>
     </div>
   );
